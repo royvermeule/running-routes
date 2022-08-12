@@ -1,0 +1,127 @@
+/* Global settings for all pages */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+/* induvidual page settings */
+
+/* maplist (in: views/maps/index) */
+#links-maplist {
+  margin: 200;
+  overflow: auto;
+  margin: 50px;
+  padding-bottom: 100px;
+  background-color: white;
+  box-shadow: .1em .1em 1em black; 
+}
+
+#links-maplist-settings {
+  margin: 20px;
+}
+
+#returnto-dashboard {
+  margin-left: 50px;
+  margin-right: 1800px;
+  background-color: orange;
+  text-align: center;
+  box-shadow: .1em .1em 1em black; 
+  border: 2px solid rgb(0, 0, 0, 0.4);
+}
+
+#h3-mapinfo {
+  padding-right: 20px;
+}
+
+/* dashboard (in: views/homepages/index) */
+#links-dashboard {
+  margin: 200;
+  overflow: auto;
+  margin: 50px;
+  padding-bottom: 100px;
+  background-color: white;
+  box-shadow: .1em .1em 1em black; 
+}
+
+#map-links-dash {
+  margin: 20px
+}
+
+
+
+
+/* styles for pages you can call */
+/* in here you will find styles you can use for your pages */
+
+/* type1 style */
+#header-type1{
+ margin-right: 50px;
+ margin-left: 50px;
+ margin-top: 50px;
+ background:rgba(70, 70, 70, 0.8);
+ height: 60px;
+ text-align: center;
+}
+
+#main-type1 {
+  min-height: 100%;
+  overflow: auto;
+  margin: 50px;
+  padding-bottom: 100px;
+  background: rgba(255, 129, 0, 0.4);
+  border: 1px solid rgb(0, 0, 0, 0.4);
+}
+
+#footer-type1 {
+  background-color: grey;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+ }
+
+ /* type2 style */
+#header-type2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  background: rgba(0, 71, 170, 0.4);
+  height: 60px;
+  text-align: center;
+ }
+ 
+ #main-type2 {
+   min-height: 100%;
+   overflow: auto;
+   margin: 50px;
+   padding-bottom: 100px;
+   background: rgba(123, 123, 123, 0.4);
+   border: 1px solid rgb(0, 0, 0, 0.4);
+ }
+ 
+ #footer-type2 {
+   background: rgba(0, 71, 170, 1);
+   position: relative;
+   height: 100px;
+   margin-top: -100px;
+   clear: both;
+  }
+ 
+/* backgroundstyles */
+#background-sunset-run1 {
+  background-image: url(../img/silhouette-young-fitness-man-running-sunrise.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background-planning-run1 {
+  background-image: url(../img/planing1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
